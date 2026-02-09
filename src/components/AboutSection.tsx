@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
-const skills = ["JavaScript", "React","Laravel", "Node.js", "Python", "PostgreSQL", "Docker", "PHP"];
+const skills = ["JavaScript", "React","Laravel", "Node.js", "Python", "PostgreSQL", "Docker","Make", "PHP"];
 const AboutSection = () => {
   return <section id="sobre" className="section-padding max-w-5xl mx-auto">
       <SectionHeading number="01" title="Sobre Mim" />
@@ -15,7 +15,8 @@ const AboutSection = () => {
       }} viewport={{
         once: true
       }} className="md:col-span-2 space-y-4 text-muted-foreground leading-relaxed">
-          <p>Sou desenvolvedor backend com experiência em PHP e Laravel, focado na construção de sistemas funcionais, organizados e pensados para resolver problemas reais. Tenho vivência prática com manutenção, evolução e criação de aplicações web, lidando com banco de dados, regras de negócio e integração entre sistemas.</p>
+          <p>Sou desenvolvedor full stack com experiência em PHP e Laravel, focado na construção de sistemas funcionais, organizados e pensados para resolver problemas reais. Tenho vivência prática com manutenção, evolução e criação de aplicações web, lidando com banco de dados, regras de negócio e integrações entre sistemas. Além disso, possuo experiência com automação de processos de atendimento via chat e soluções automatizadas aplicadas em contextos reais de negócio.</p>
+          
           <p>
             Aqui estão algumas tecnologias com as quais tenho trabalhado:
           </p>
