@@ -29,7 +29,7 @@ const Navbar = () => {
     >
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         <a href="#" className="font-mono text-xl font-semibold text-primary">
-          {"<RC />"}
+          {"<JP/>"}
         </a>
 
         {/* Desktop */}
@@ -56,10 +56,11 @@ const Navbar = () => {
             transition={{ delay: 0.4 }}
           >
             <a
-              href="/curriculo.pdf"
+              href="https://www.linkedin.com/in/jefferson-perosso-b93495236"
+              target="_blank"
               className="font-mono text-sm border border-primary text-primary px-4 py-2 rounded hover:bg-primary/10 transition-colors"
             >
-              Currículo
+              Linkedin
             </a>
           </motion.li>
         </ul>

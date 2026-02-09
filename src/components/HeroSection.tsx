@@ -48,12 +48,7 @@ const HeroSection = () => {
         delay: 0.5
       }} className="max-w-xl text-muted-foreground text-base md:text-lg leading-relaxed mb-12">
           Sou um desenvolvedor full-stack especializado em criar aplicações web
-          excepcionais. Atualmente focado em construir produtos digitais acessíveis
-          e centrados no usuário na{" "}
-          <a href="#" className="text-primary hover:underline">
-            TechNova Solutions
-          </a>
-          .
+          excepcionais.
         </motion.p>
 
         <motion.div initial={{

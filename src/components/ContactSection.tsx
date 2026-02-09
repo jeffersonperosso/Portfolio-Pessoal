@@ -16,7 +16,7 @@ const ContactSection = () => {
           caixa de entrada está sempre aberta!
         </p>
         <a
-          href="mailto:rafael.costa@email.com"
+          href="mailto:jeffersondamazioperosso@gmail.com"
           className="inline-block font-mono text-sm border border-primary text-primary px-8 py-4 rounded hover:bg-primary/10 transition-colors"
         >
           Diga Olá

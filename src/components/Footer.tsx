@@ -1,10 +1,8 @@
-import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
+import { Github, Linkedin} from "lucide-react";
 
 const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Github, href: "https://github.com/jeffersonperosso", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/jefferson-perosso-b93495236", label: "LinkedIn" },
 ];
 
 const Footer = () => {
@@ -16,6 +14,7 @@ const Footer = () => {
             key={label}
             href={href}
             aria-label={label}
+            target="_blank"
             className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all"
           >
             <Icon className="w-5 h-5" />
@@ -23,7 +22,7 @@ const Footer = () => {
         ))}
       </div>
       <p className="font-mono text-xs text-muted-foreground">
-        Desenvolvido por Rafael Costa
+        Desenvolvido por Jefferson Perosso
       </p>
     </footer>
   );

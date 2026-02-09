@@ -48,10 +48,10 @@ const ProjectsSection = () => {
   return (
     <section id="projetos" className="section-padding max-w-5xl mx-auto">
       <SectionHeading number="03" title="Projetos" />
-
-      {projects.map((project, i) => (
+      <p>Em andamento...</p>
+      {/*{projects.map((project, i) => (
         <ProjectCard key={project.title} {...project} reverse={i % 2 !== 0} />
-      ))}
+      ))}*/}
     </section>
   );
 };

@@ -4,33 +4,23 @@ import SectionHeading from "./SectionHeading";
 
 const experiences = [
   {
-    company: "TechNova Solutions",
-    role: "Desenvolvedor Full-Stack Sênior",
-    period: "Jan 2023 — Presente",
+    company: "The Social Media",
+    role: "Desenvolvedor de Automação e IA.",
+    period: "Jan 2026 — Atualmente",
     points: [
-      "Lidero o desenvolvimento de aplicações web escaláveis utilizando React, Node.js e AWS, atendendo mais de 50 mil usuários ativos.",
-      "Implementei pipelines de CI/CD que reduziram o tempo de deploy em 60%.",
-      "Mentoro uma equipe de 4 desenvolvedores juniores em melhores práticas e code reviews.",
+      "Desenvolvimento de automações que reduzem tarefas manuais e aumentam a eficiência dos processos.",
+      "Integração de sistemas e APIs para garantir fluxo automático e confiável de dados.",
+      "Criação de soluções personalizadas com foco em escalabilidade e manutenção simples.",
     ],
   },
   {
-    company: "PixelCraft Agency",
-    role: "Desenvolvedor Front-End Pleno",
-    period: "Mar 2021 — Dez 2022",
+    company: "Invicto Energia Solar",
+    role: "Desenvolvedor Fullstack (Laravel - PHP).",
+    period: "Fev 2024 — Jan 2025",
     points: [
-      "Desenvolvi interfaces responsivas e acessíveis para mais de 20 clientes utilizando React e TypeScript.",
-      "Otimizei performance de carregamento, alcançando score 95+ no Lighthouse em todos os projetos.",
-      "Colaborei diretamente com designers UX para traduzir protótipos em componentes reutilizáveis.",
-    ],
-  },
-  {
-    company: "StartupFin",
-    role: "Desenvolvedor Júnior",
-    period: "Jun 2019 — Fev 2021",
-    points: [
-      "Contribuí para o desenvolvimento do app mobile de pagamentos usando React Native.",
-      "Integrei APIs RESTful e serviços de terceiros para processamento de transações.",
-      "Participei ativamente de sprints ágeis e cerimônias Scrum.",
+      "Desenvolvimento de sistemas web utilizando Laravel, com foco em organização, performance e boas práticas.",
+      "Criação e manutenção de CRUDs, integrações com banco de dados e regras de negócio.",
+      "Implementação de melhorias e correções visando escalabilidade e estabilidade da aplicação.",
     ],
   },
 ];
@@ -70,7 +60,6 @@ const ExperienceSection = () => {
         >
           <h3 className="text-lg font-medium">
             {experiences[activeTab].role}{" "}
-            <span className="text-primary">@ {experiences[activeTab].company}</span>
           </h3>
           <p className="font-mono text-sm text-muted-foreground mt-1 mb-6">
             {experiences[activeTab].period}

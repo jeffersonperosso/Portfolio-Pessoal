@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
-const skills = ["JavaScript (ES6+)", "TypeScript", "React", "Node.js", "Python", "PostgreSQL", "Docker", "AWS"];
+const skills = ["JavaScript", "React","Laravel", "Node.js", "Python", "PostgreSQL", "Docker", "PHP"];
 const AboutSection = () => {
   return <section id="sobre" className="section-padding max-w-5xl mx-auto">
       <SectionHeading number="01" title="Sobre Mim" />
@@ -17,16 +17,7 @@ const AboutSection = () => {
       }} className="md:col-span-2 space-y-4 text-muted-foreground leading-relaxed">
           <p>Sou desenvolvedor backend com experiência em PHP e Laravel, focado na construção de sistemas funcionais, organizados e pensados para resolver problemas reais. Tenho vivência prática com manutenção, evolução e criação de aplicações web, lidando com banco de dados, regras de negócio e integração entre sistemas.</p>
           <p>
-            Avancei bastante desde então e tive o privilégio de trabalhar em uma{" "}
-            <span className="text-primary">agência digital</span>, uma{" "}
-            <span className="text-primary">startup de fintech</span> e uma{" "}
-            <span className="text-primary">grande empresa de tecnologia</span>.
-            Meu foco principal atualmente é construir produtos acessíveis e
-            inclusivos para uma variedade de clientes.
-          </p>
-          <p>
-            Aqui estão algumas tecnologias com as quais tenho trabalhado
-            recentemente:
+            Aqui estão algumas tecnologias com as quais tenho trabalhado:
           </p>
 
           <ul className="grid grid-cols-2 gap-2 font-mono text-sm mt-4">
@@ -48,7 +39,7 @@ const AboutSection = () => {
       }} className="relative group mx-auto">
           <div className="w-56 h-56 md:w-64 md:h-64 rounded bg-primary/20 overflow-hidden relative z-10">
             <div className="w-full h-full bg-gradient-to-br from-primary/30 to-secondary flex items-center justify-center text-5xl font-bold text-primary">
-              RC
+              JP
             </div>
           </div>
           <div className="absolute top-4 left-4 w-56 h-56 md:w-64 md:h-64 rounded border-2 border-primary transition-all group-hover:top-2 group-hover:left-2" />
