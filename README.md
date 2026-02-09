@@ -6,23 +6,23 @@ Este projeto consiste em um site de portfólio pessoal, desenvolvido para aprese
 
 O projeto foi construído utilizando as seguintes tecnologias:
 
-Vite
+- Vite
 
-TypeScript
+- TypeScript
 
-React
+- React
 
-shadcn/ui
+- shadcn/ui
 
-Tailwind CSS
+- Tailwind CSS
 
-Requisitos
+## Requisitos
 
 Antes de iniciar, é necessário ter instalado em sua máquina:
 
-Node.js
+- Node.js
 
-npm
+- npm
 
 ## Instalação e execução
 
