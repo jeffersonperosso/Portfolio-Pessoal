@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { HashLink } from "react-router-hash-link";
 
 const navLinks = [
-  { name: "Sobre", href: "#sobre" },
-  { name: "Experiência", href: "#experiencia" },
-  { name: "Projetos", href: "#projetos" },
-  { name: "Contato", href: "#contato" },
+  { name: "Sobre", id: "#sobre" },
+  { name: "Experiência", id: "#experiencia" },
+  { name: "Projetos", id: "#projetos" },
+  { name: "Contato", id: "#contato" },
 ];
 
 const Navbar = () => {
@@ -41,13 +42,14 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
             >
-              <a
-                href={link.href}
+              <HashLink
+                smooth
+                to={`${link.id}`}
                 className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <span className="text-primary mr-1">0{i + 1}.</span>
                 {link.name}
-              </a>
+              </HashLink>
             </motion.li>
           ))}
           <motion.li
@@ -91,14 +93,14 @@ const Navbar = () => {
           <ul className="flex flex-col items-center gap-6 py-8">
             {navLinks.map((link, i) => (
               <li key={link.name}>
-                <a
-                  href={link.href}
+                <HashLink
+                  smooth
+                  to={`${link.id}`}
                   onClick={() => setMenuOpen(false)}
-                  className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   <span className="text-primary mr-1">0{i + 1}.</span>
                   {link.name}
-                </a>
+                </HashLink>
               </li>
             ))}
           </ul>
