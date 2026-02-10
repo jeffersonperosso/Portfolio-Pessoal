@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { HashLink } from "react-router-hash-link";
 const HeroSection = () => {
   return <section className="min-h-screen flex items-center section-padding pt-32">
       <div className="max-w-4xl">
@@ -60,9 +61,13 @@ const HeroSection = () => {
       }} transition={{
         delay: 0.6
       }}>
-          <a href="#projetos" className="inline-block font-mono text-sm border border-primary text-primary px-8 py-4 rounded hover:bg-primary/10 transition-colors">
+          <HashLink
+                smooth
+                to={`#projetos`}
+                className="inline-block font-mono text-sm border border-primary text-primary px-8 py-4 rounded hover:bg-primary/10 transition-colors"
+              >
             Confira meus projetos
-          </a>
+          </HashLink>
         </motion.div>
       </div>
     </section>;
